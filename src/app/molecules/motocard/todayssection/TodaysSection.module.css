@@ -1,0 +1,12 @@
+.heading{
+    font-family: playfair;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    text-align: center;
+}
+
+.todaysSectionTopLevelContainer{
+    margin-top: 60px;
+    width: 100%;
+}

@@ -1,0 +1,12 @@
+.headerButton {
+    background-image: linear-gradient(90.97deg, #43CEBD 0%, #6FB5E9 99.9%);
+    width: 108px;
+    height: 36px;
+    color: white;
+    border-width: 0;
+    font-family: matteo;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 3%;
+}

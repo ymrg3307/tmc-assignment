@@ -1,0 +1,47 @@
+.headerSection {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px 9px 18px;
+}
+
+.LeftHeaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoContainer {
+    height: 36px;
+    width: 36px;
+    background-image: linear-gradient(90deg, #55C79A 0%, #907CFF 52.08%, #FC876D 100%);
+    border-radius: 20px;
+}
+
+.compNameLogoWrapper {
+    width: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11px;
+}
+
+.compNameImg {
+    margin-left: 12px;
+    width: 60px;
+    height: 27px;
+}
+
+.searchIcon {
+    margin-right: 19px;
+}

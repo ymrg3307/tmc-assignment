@@ -1,0 +1,24 @@
+.recentNewsContainer {
+    width: 355px;
+    height: 111px;
+
+}
+
+.itemsContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 355px;
+    height: 111px;
+    margin-left: 20px;
+    margin-top: 40px;
+    overflow: visible;
+}
+
+.recentNewsCard {
+    background-color: white;
+    width: 280px;
+    margin-right: 24px;
+    flex-shrink: 0;
+    padding: 16px 16px 21px 16px;
+}
