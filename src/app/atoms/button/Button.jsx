@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './button.module.css'
 
-const Button = ({ text }) => {
+const Button = ({ text, btnWidth }) => {
     return (
-        <button className={styles.headerButton} >{text}</button>
+        <button className={styles.headerButton} style={{ width: btnWidth ?? null }}>{text}</button>
     )
 }
 

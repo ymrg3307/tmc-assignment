@@ -5,6 +5,7 @@ import YesterdaySection from "@/app/molecules/yesterdaysection/YesterdaySection"
 import BlockSeparator from "@/app/atoms/blockseparator/BlockSeparator"
 import TopStoriesSection from "@/app/molecules/topstoriessection/TopStoriesSection"
 import LatestNewsSection from "@/app/molecules/latestnewssection/LatestNewsSection"
+import ExploreNewsLetterSection from "@/app/molecules/explorenewslettersection/ExploreNewsLetterSection"
 
 const MainSection = () => {
   return (
@@ -25,6 +26,7 @@ const MainSection = () => {
       </div>
       <TopStoriesSection />
       <LatestNewsSection />
+      <ExploreNewsLetterSection />
     </main>
   )
 }
