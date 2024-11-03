@@ -1,0 +1,90 @@
+.numberedOverviewCardTopContainer {
+    display: flex;
+    margin-right: 24px;
+}
+
+.articleOverviewContainer {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 24px;
+}
+
+.articleNumber {
+    font-family: abril;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #A1A1A1;
+    margin-top: 11px;
+}
+
+.articleContainer{
+    margin-left: 6px;
+}
+
+.articleDomain {
+    color: #2CB680;
+    font-family: neuehaas;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
+
+.articleHeading {
+    font-family: playfair;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.divideLine {
+    border: 1px solid #1E1B4B;
+    width: 100px;
+}
+
+.articleOverViewBottomSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.authorDetailsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+}
+
+.authorImg {
+    border: 1px solid #FC876D;
+    border-radius: 16px;
+}
+
+.authorName {
+    margin-bottom: 0;
+    margin-left: 12px;
+    font-family: neuehaas;
+    font-size: 16px;
+    color: #292929;
+    line-height: 19px;
+}
+
+.chatIconMsgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0 4px 11px
+}
+
+.chatIcon {
+    margin-right: 4px;
+}
+
+.chatCount {
+    margin-bottom: 0;
+    font-family: neuehaas;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #6B7280;
+}

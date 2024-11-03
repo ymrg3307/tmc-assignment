@@ -1,0 +1,24 @@
+.topStoriesTopContainer{
+    width: 100%;
+    background-color: white;
+    padding-top: 80px;
+}
+
+.mainHeading{
+    text-align: center;
+    font-family: playfair;
+    font-weight: 700;
+    line-height: 51px;
+    font-size: 34px;
+    color: #292929;
+}
+
+.numberedCardsContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 24px;
+    overflow: visible;
+}
