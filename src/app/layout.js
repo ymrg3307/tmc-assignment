@@ -31,7 +31,7 @@ const abril = Abril_Fatface({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" style={{ boxSizing: 'border-box' }}>
       <body className={`${matteo.variable} ${neuehaas.variable} ${playfair.variable} ${abril.className}`}>
         {children}
       </body>

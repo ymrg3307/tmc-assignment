@@ -4,6 +4,10 @@
     margin-top: 24px;
 }
 
+/* .articleContainer{
+    margin-left: 6px;
+} */
+
 .articleDomain {
     color: #2CB680;
     font-family: neuehaas;
@@ -15,20 +19,14 @@
 .articleHeading {
     font-family: playfair;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 35px;
-}
-
-.articleSummary {
-    font-weight: 400;
-    font-size: 14px;
-    font-family: neuehaas;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .divideLine {
     border: 1px solid #1E1B4B;
     width: 100px;
+    margin: 4px 0 4px 0;
 }
 
 .articleOverViewBottomSection {
@@ -49,7 +47,7 @@
     border-radius: 16px;
 }
 
-.authorName{
+.authorName {
     margin-bottom: 0;
     margin-left: 12px;
     font-family: neuehaas;
@@ -58,31 +56,10 @@
     line-height: 19px;
 }
 
-.chatDurationContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.durationText {
-    margin-bottom: 0;
-    margin-right: 8px;
-    font-family: neuehaas;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 400;
-    color: #6B7280;
-}
-
 .chatIconMsgContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    border-style: solid;
-    border-color: #E5E7EB;
-
-    border-width: 0 0 0 1px;
     padding: 4px 0 4px 11px
 }
 

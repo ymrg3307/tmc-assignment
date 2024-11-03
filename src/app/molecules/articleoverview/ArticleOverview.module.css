@@ -24,11 +24,13 @@
     font-size: 14px;
     font-family: neuehaas;
     line-height: 21px;
+    margin-bottom: 8px;
 }
 
 .divideLine {
     border: 1px solid #1E1B4B;
     width: 100px;
+    margin: 4px 0 4px 0;
 }
 
 .articleOverViewBottomSection {

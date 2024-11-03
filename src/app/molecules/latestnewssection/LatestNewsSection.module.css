@@ -1,0 +1,23 @@
+.heading {
+    font-family: playfair;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    text-align: center;
+}
+
+.todaysSectionTopLevelContainer {
+    margin-top: 60px;
+    width: 100%;
+    background-color: white;
+}
+
+.description {
+    font-family: matteo;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #292929;
+    font-weight: 400;
+}
