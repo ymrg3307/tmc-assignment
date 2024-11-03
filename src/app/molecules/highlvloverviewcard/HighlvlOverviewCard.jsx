@@ -3,11 +3,11 @@ import { Chat } from 'react-bootstrap-icons'
 import Image from 'next/image'
 
 const HighlvlOverviewCard = (props) => {
-    const { domain, hideMainImage = false, mainImageLink, heading, authorDetails, chatCount } = props
+    const { domain, domainColor = '#2CB680', hideMainImage = false, mainImageLink, heading, authorDetails, chatCount } = props
     const { authorImageLink, authorName } = authorDetails
     return (
         <div className={styles.articleContainer}>
-            <h3 className={styles.articleDomain}>{domain}</h3>
+            <h3 className={styles.articleDomain} style={{ color: domainColor }}>{domain}</h3>
             {!hideMainImage && <Image className={styles.compNameImg} src={mainImageLink} alt='logo' width={254} height={128} />}
             <h1 className={styles.articleHeading}>{heading}</h1>
             <hr className={styles.divideLine} />

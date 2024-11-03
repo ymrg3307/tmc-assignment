@@ -4,12 +4,12 @@ import Image from 'next/image'
 import { Chat } from 'react-bootstrap-icons'
 
 const ArticleOverview = (props) => {
-    const { domain, mainImageLink, heading, summary, authorDetails, durationToRead, chatCount } = props
+    const { domain,domainColor='#2CB680', mainImageLink, heading, summary, authorDetails, durationToRead, chatCount } = props
     const { authorImageLink, authorName } = authorDetails
 
     return (
         <div className={styles.articleOverviewContainer}>
-            <h3 className={styles.articleDomain}>{domain}</h3>
+            <h3 className={styles.articleDomain} style={{color:domainColor}}>{domain}</h3>
             <Image className={styles.compNameImg} src={mainImageLink} alt='logo' width={335} height={210} />
             <h1 className={styles.articleHeading}>{heading}</h1>
             <p className={styles.articleSummary}>{summary}</p>
