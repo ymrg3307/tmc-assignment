@@ -1,0 +1,38 @@
+.yesterdaySectionContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 56px;
+}
+
+.bookmarkHeadingContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headingContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading,.date {
+    color: #0D256C;
+    font-family: matteo;
+    line-height: 19px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.date {
+    color: #29292980;
+    font-weight: 400;
+}

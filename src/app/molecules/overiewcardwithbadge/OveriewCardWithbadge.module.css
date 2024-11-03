@@ -1,0 +1,26 @@
+.overViewCardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #F3F5FF;
+    padding: 24px;
+    border-left: 4px solid;
+}
+
+.overvieCardHeading {
+    color: #051462;
+    font-family: matteo;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.overvieCardContent {
+    color: #051462;
+    font-family: matteo;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+}
