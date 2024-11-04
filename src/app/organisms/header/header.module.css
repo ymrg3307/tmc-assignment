@@ -43,6 +43,15 @@
     height: 27px;
 }
 
+.searchButton{
+    border: 0;
+    background-color: transparent;
+}
 .searchIcon {
     margin-right: 19px;
+}
+
+.menuButton{
+    border: 0;
+    background-color: transparent;
 }
