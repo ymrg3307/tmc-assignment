@@ -4,7 +4,7 @@ import ArticleOverview from '../articleoverview/ArticleOverview'
 
 const TodaysSection = () => {
     return (
-        <div className={styles.todaysSectionTopLevelContainer}>
+        <section className={styles.todaysSectionTopLevelContainer}>
             <h1 className={styles.heading}>Today's Edition</h1>
             <div className={styles.todaysArticlesContainer}>
                 <ArticleOverview
@@ -35,7 +35,7 @@ const TodaysSection = () => {
                     chatCount='23'
                 />
             </div>
-        </div>
+        </section>
     )
 }
 

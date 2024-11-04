@@ -3,7 +3,7 @@ import HighlvlOverviewCard from "../highlvloverviewcard/HighlvlOverviewCard"
 import styles from './LatestNewsSection.module.css'
 const LatestNewsSection = () => {
     return (
-        <div className={styles.todaysSectionTopLevelContainer}>
+        <section className={styles.todaysSectionTopLevelContainer}>
             <h1 className={styles.heading}>Latest Newsletters</h1>
             <p className={styles.description}>A wealth of knowledge from India's top writers curated for you by The Morning Context.</p>
             <div className={styles.todaysArticlesContainer}>
@@ -62,7 +62,7 @@ const LatestNewsSection = () => {
                     />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

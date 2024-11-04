@@ -6,7 +6,7 @@ import styles from './TopStoriesSection.module.css'
 
 const TopStoriesSection = () => {
     return (
-        <div className={styles.topStoriesTopContainer}>
+        <section className={styles.topStoriesTopContainer}>
             <h2 className={styles.mainHeading}>Top Stories</h2>
             <ScrollContainer style={{ padding: 0 }} vertical={false}>
                 <div className={styles.numberedCardsContainer}>
@@ -112,7 +112,7 @@ const TopStoriesSection = () => {
                     />
                 </div>
             </ScrollContainer>
-        </div>
+        </section>
     )
 }
 

@@ -4,7 +4,7 @@ import Button from '@/app/atoms/button/Button'
 
 const ExploreNewsLetterSection = () => {
     return (
-        <div className={styles.exploreNLSection}>
+        <section className={styles.exploreNLSection}>
             <h2 className={styles.heading}>Explore newsletters on</h2>
             <div className={styles.buttonsGroup}>
                 <HallowButton text='Internet' />
@@ -19,7 +19,7 @@ const ExploreNewsLetterSection = () => {
             <div className={styles.signupBtnContainer}>
                 <Button btnWidth={'100%'} text='SIGN UP TO SUBSCRIBE' />
             </div>
-        </div>
+        </section>
     )
 }
 

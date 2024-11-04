@@ -4,7 +4,7 @@ import OveriewCardWithbadge from '../overiewcardwithbadge/OveriewCardWithbadge'
 import Image from 'next/image'
 const YesterdaySection = () => {
     return (
-        <div className={styles.yesterdaySectionContainer}>
+        <section className={styles.yesterdaySectionContainer}>
             <div className={styles.headingContainer}>
                 <div className={styles.bookmarkHeadingContainer}>
                     <Image src="/Vector_437.svg" alt='bookmark' height={15} width={16} />
@@ -35,7 +35,7 @@ const YesterdaySection = () => {
                     cardheading={'Government curbs export of COVID-19 Rapid Antigen Testing kits'}
                 />
             </div>
-        </div>
+        </section>
     )
 }
 
