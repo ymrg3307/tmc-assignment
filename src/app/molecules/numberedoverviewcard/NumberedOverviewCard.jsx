@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './NumberedOverviewCard.module.css'
 
 import HighlvlOverviewCard from '../highlvloverviewcard/HighlvlOverviewCard'

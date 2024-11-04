@@ -6,12 +6,12 @@ const HighlvlOverviewCard = (props) => {
     const { domain, domainColor = '#2CB680', hideMainImage = false, mainImageLink, heading, authorDetails, chatCount } = props
     const { authorImageLink, authorName } = authorDetails
     return (
-        <div className={styles.articleContainer}>
-            <h3 className={styles.articleDomain} style={{ color: domainColor }}>{domain}</h3>
+        <div className={styles.highLvlContainer}>
+            <h3 className={styles.highLvlDomain} style={{ color: domainColor }}>{domain}</h3>
             {!hideMainImage && <Image className={styles.compNameImg} src={mainImageLink} alt='logo' width={254} height={128} />}
-            <h1 className={styles.articleHeading}>{heading}</h1>
+            <h1 className={styles.highLvlHeading}>{heading}</h1>
             <hr className={styles.divideLine} />
-            <div className={styles.articleOverViewBottomSection}>
+            <div className={styles.highLvlOverViewBottomSection}>
                 <div className={styles.authorDetailsContainer}>
                     <Image className={styles.authorImg} src={authorImageLink} alt='author-image' width={30} height={30} />
                     <p className={styles.authorName}>{authorName}</p>

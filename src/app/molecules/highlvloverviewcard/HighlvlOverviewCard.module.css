@@ -1,21 +1,17 @@
-.articleOverviewContainer {
+.highLvlOverviewContainer {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 24px;
 }
 
-/* .articleContainer{
-    margin-left: 6px;
-} */
-
-.articleDomain {
+.highLvlDomain {
     font-family: neuehaas;
     font-size: 13px;
     line-height: 16px;
     letter-spacing: 1px;
 }
 
-.articleHeading {
+.highLvlHeading {
     font-family: playfair;
     font-weight: 700;
     font-size: 16px;
@@ -28,7 +24,7 @@
     margin: 4px 0 4px 0;
 }
 
-.articleOverViewBottomSection {
+.highLvlOverViewBottomSection {
     display: flex;
     justify-content: space-between;
     align-items: center;
