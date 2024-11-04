@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './OveriewCardWithbadge.module.css'
 const OveriewCardWithbadge = ({ cardheading, cardContent, leftBorderColor, marginTop = '24px' }) => {
     return (

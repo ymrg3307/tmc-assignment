@@ -1,6 +1,5 @@
-import React from 'react'
 import styles from './TodaysSection.module.css'
-import ArticleOverview from '../articleoverview/ArticleOverview'
+import ArticleOverview from '../../../molecules/articleoverview/ArticleOverview'
 
 const TodaysSection = () => {
     return (

@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './ArticleOverview.module.css'
 import Image from 'next/image'
 import { Chat } from 'react-bootstrap-icons'

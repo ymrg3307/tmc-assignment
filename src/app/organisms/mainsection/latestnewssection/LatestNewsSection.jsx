@@ -1,5 +1,5 @@
-import ArticleOverview from "../articleoverview/ArticleOverview"
-import HighlvlOverviewCard from "../highlvloverviewcard/HighlvlOverviewCard"
+import ArticleOverview from "../../../molecules/articleoverview/ArticleOverview"
+import HighlvlOverviewCard from "../../../molecules/highlvloverviewcard/HighlvlOverviewCard"
 import styles from './LatestNewsSection.module.css'
 const LatestNewsSection = () => {
     return (

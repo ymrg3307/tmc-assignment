@@ -1,6 +1,5 @@
-import React from 'react'
 import styles from './YesterdaySection.module.css'
-import OveriewCardWithbadge from '../overiewcardwithbadge/OveriewCardWithbadge'
+import OveriewCardWithbadge from '../../../molecules/overiewcardwithbadge/OveriewCardWithbadge'
 import Image from 'next/image'
 const YesterdaySection = () => {
     return (

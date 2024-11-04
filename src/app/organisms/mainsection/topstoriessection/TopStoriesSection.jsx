@@ -1,7 +1,7 @@
 'use client';
 
 import ScrollContainer from 'react-indiana-drag-scroll'
-import NumberedOverviewCard from '../numberedoverviewcard/NumberedOverviewCard'
+import NumberedOverviewCard from '../../../molecules/numberedoverviewcard/NumberedOverviewCard'
 import styles from './TopStoriesSection.module.css'
 
 const TopStoriesSection = () => {
@@ -15,9 +15,7 @@ const TopStoriesSection = () => {
                         domain='BUSINESS'
                         mainImageLink='/ts1.jpg'
                         heading='Is Bandhan banking too much on microfinance?'
-                        summary='In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.'
                         authorDetails={{ authorName: 'Ashish K. Mishra', authorImageLink: '/Face.jpg' }}
-                        durationToRead='5'
                         chatCount='23'
                     />
                     <NumberedOverviewCard
@@ -25,9 +23,7 @@ const TopStoriesSection = () => {
                         domain='BUSINESS'
                         mainImageLink='/Rectangle 1352.jpg'
                         heading='Is Bandhan banking too much on microfinance?'
-                        summary='In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.'
                         authorDetails={{ authorName: 'Ashish K. Mishra', authorImageLink: '/Face.jpg' }}
-                        durationToRead='5'
                         chatCount='23'
                     />
                     <NumberedOverviewCard
@@ -35,9 +31,7 @@ const TopStoriesSection = () => {
                         domain='BUSINESS'
                         mainImageLink='/Rectangle 1353.jpg'
                         heading='Is Bandhan banking too much on microfinance?'
-                        summary='In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.'
                         authorDetails={{ authorName: 'Ashish K. Mishra', authorImageLink: '/Face.jpg' }}
-                        durationToRead='5'
                         chatCount='23'
                     />
                     <NumberedOverviewCard
@@ -45,9 +39,7 @@ const TopStoriesSection = () => {
                         domain='BUSINESS'
                         mainImageLink='/Rectangle 1354.jpg'
                         heading='Is Bandhan banking too much on microfinance?'
-                        summary='In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.'
                         authorDetails={{ authorName: 'Ashish K. Mishra', authorImageLink: '/Face.jpg' }}
-                        durationToRead='5'
                         chatCount='23'
                     />
                     <NumberedOverviewCard
@@ -55,9 +47,7 @@ const TopStoriesSection = () => {
                         domain='BUSINESS'
                         mainImageLink='/ts1.jpg'
                         heading='Is Bandhan banking too much on microfinance?'
-                        summary='In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.'
                         authorDetails={{ authorName: 'Ashish K. Mishra', authorImageLink: '/Face.jpg' }}
-                        durationToRead='5'
                         chatCount='23'
                     />
                     <NumberedOverviewCard
@@ -65,9 +55,7 @@ const TopStoriesSection = () => {
                         domain='BUSINESS'
                         mainImageLink='/Rectangle 1352.jpg'
                         heading='Is Bandhan banking too much on microfinance?'
-                        summary='In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.'
                         authorDetails={{ authorName: 'Ashish K. Mishra', authorImageLink: '/Face.jpg' }}
-                        durationToRead='5'
                         chatCount='23'
                     />
                     <NumberedOverviewCard
@@ -75,9 +63,7 @@ const TopStoriesSection = () => {
                         domain='BUSINESS'
                         mainImageLink='/Rectangle 1353.jpg'
                         heading='Is Bandhan banking too much on microfinance?'
-                        summary='In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.'
                         authorDetails={{ authorName: 'Ashish K. Mishra', authorImageLink: '/Face.jpg' }}
-                        durationToRead='5'
                         chatCount='23'
                     />
                     <NumberedOverviewCard
@@ -85,9 +71,7 @@ const TopStoriesSection = () => {
                         domain='BUSINESS'
                         mainImageLink='/Rectangle 1354.jpg'
                         heading='Is Bandhan banking too much on microfinance?'
-                        summary='In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.'
                         authorDetails={{ authorName: 'Ashish K. Mishra', authorImageLink: '/Face.jpg' }}
-                        durationToRead='5'
                         chatCount='23'
                     />
                     <NumberedOverviewCard
@@ -95,9 +79,7 @@ const TopStoriesSection = () => {
                         domain='BUSINESS'
                         mainImageLink='/ts1.jpg'
                         heading='Is Bandhan banking too much on microfinance?'
-                        summary='In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.'
                         authorDetails={{ authorName: 'Ashish K. Mishra', authorImageLink: '/Face.jpg' }}
-                        durationToRead='5'
                         chatCount='23'
                     />
                     <NumberedOverviewCard
@@ -105,9 +87,7 @@ const TopStoriesSection = () => {
                         domain='BUSINESS'
                         mainImageLink='/Rectangle 1352.jpg'
                         heading='Is Bandhan banking too much on microfinance?'
-                        summary='In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.'
                         authorDetails={{ authorName: 'Ashish K. Mishra', authorImageLink: '/Face.jpg' }}
-                        durationToRead='5'
                         chatCount='23'
                     />
                 </div>

@@ -1,11 +1,12 @@
 import MotoCard from "@/app/molecules/motocard/MotoCard"
-import TodaysSection from "@/app/molecules/todayssection/TodaysSection"
-import RecentNews from "@/app/molecules/recentnews/RecentNews"
-import YesterdaySection from "@/app/molecules/yesterdaysection/YesterdaySection"
+import TodaysSection from "@/app/organisms/mainsection/todayssection/TodaysSection"
+import RecentNews from "@/app/organisms/mainsection/recentnews/RecentNews"
+import YesterdaySection from "@/app/organisms/mainsection/yesterdaysection/YesterdaySection"
 import BlockSeparator from "@/app/atoms/blockseparator/BlockSeparator"
-import TopStoriesSection from "@/app/molecules/topstoriessection/TopStoriesSection"
-import LatestNewsSection from "@/app/molecules/latestnewssection/LatestNewsSection"
-import ExploreNewsLetterSection from "@/app/molecules/explorenewslettersection/ExploreNewsLetterSection"
+import TopStoriesSection from "@/app/organisms/mainsection/topstoriessection/TopStoriesSection"
+import LatestNewsSection from "@/app/organisms/mainsection/latestnewssection/LatestNewsSection"
+import ExploreNewsLetterSection from "@/app/organisms/mainsection/explorenewslettersection/ExploreNewsLetterSection"
+
 
 const MainSection = () => {
   return (

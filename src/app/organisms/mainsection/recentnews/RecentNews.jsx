@@ -1,6 +1,6 @@
 'use client';
 
-import RecentNewsCard from '../recentnewscard/RecentNewsCard';
+import RecentNewsCard from '../../../molecules/recentnewscard/RecentNewsCard';
 import styles from './RecentNews.module.css'
 import ScrollContainer from 'react-indiana-drag-scroll'
 
