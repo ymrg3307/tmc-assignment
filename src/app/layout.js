@@ -1,4 +1,4 @@
-import "./globals.css";
+import styles from "./globals.module.css";
 import localFont from "next/font/local";
 import { Abril_Fatface } from 'next/font/google'
 
@@ -32,7 +32,7 @@ const abril = Abril_Fatface({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" style={{ boxSizing: 'border-box' }}>
-      <body className={`${matteo.variable} ${neuehaas.variable} ${playfair.variable} ${abril.className}`}>
+      <body className={`${styles.body} ${matteo.variable} ${neuehaas.variable} ${playfair.variable} ${abril.className}`}>
         {children}
       </body>
     </html>
