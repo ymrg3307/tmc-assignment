@@ -7,7 +7,7 @@ const YesterdaySection = () => {
         <div className={styles.yesterdaySectionContainer}>
             <div className={styles.headingContainer}>
                 <div className={styles.bookmarkHeadingContainer}>
-                    <Image src="/Vector_437.svg" height={15} width={16} />
+                    <Image src="/Vector_437.svg" alt='bookmark' height={15} width={16} />
                     <h3 className={styles.heading}>YESTERDAY</h3>
                 </div>
                 <h3 className={styles.date}>APRIL 12, 2022</h3>
