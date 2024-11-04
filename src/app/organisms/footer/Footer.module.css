@@ -78,6 +78,26 @@
     width: 50%;
 }
 
+.listGroup ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listGroup ul li {
+    margin: 8px 0;
+}
+
+.listGroup li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footerLink {
+    display: inline-block;
+    text-decoration: none;
+}
+
 .address {
     text-align: center;
 }
